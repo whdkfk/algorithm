@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sorted[100],count;
+int sorted[100];
 
 void merge(int list[], int left,int mid, int right)
 {

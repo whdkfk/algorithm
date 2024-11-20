@@ -7,7 +7,7 @@ int search(int start, int end){
 
     if(start<=end){
         count++;
-        middle=(start+end); //반을 나눠서 탐색
+        middle=(start+end)/2; //반을 나눠서 탐색
 
         if(key==arr[middle]) return count;
         else if(key>arr[middle]) return search(start, middle-1); //key>arr[middle]이면 앞부분을 다시 탐색 
